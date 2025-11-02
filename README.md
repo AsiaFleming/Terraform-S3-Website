@@ -1,4 +1,4 @@
-# Terraform AWS Website Infrastructure
+# Terraform AWS Website Infrastructure 🧩
 
 ## Project Overview
 This project provisions a **2-tier AWS web environment** using **Terraform**. It automates the setup of an S3 static website and EC2-based backend within a custom VPC providing a foundational Infrastructure-as-Code example for cloud and DevOps roles.
