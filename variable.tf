@@ -12,7 +12,7 @@ variable "public-subnet-1-cidr" {
 }
 
 variable "bucketname" {
-  default     = "asia-s3-bucket-tf"
+  default     = "demo-s3-bucket-tf"
   description = "S3 Bucket Name"
   type        = string
 }
