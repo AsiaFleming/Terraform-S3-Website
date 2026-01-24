@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found | Asia Fleming</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #f8f7f4, #e7e3da);
+      color: #3f322a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 6rem;
+      color: #5a4637;
+      letter-spacing: 4px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #7c6e63;
+      margin-top: 10px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    p {
+      margin-top: 15px;
+      color: #6b5e53;
+      font-size: 1rem;
+      animation: fadeInUp 1.4s ease-in-out;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 25px;
+      background: #5a4637;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      transition: background 0.3s ease, transform 0.3s ease;
+      animation: fadeInUp 1.6s ease-in-out;
+    }
+
+    a:hover {
+      background: #7c6e63;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #7c6e63;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    /* ===== Animations ===== */
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>404</h1>
+  <h2>Oops! Page Not Found</h2>
+  <p>Looks like the page you're looking for doesn't exist or has been moved.</p>
+  <a href="index.html">Go Back Home</a>
+
+  <footer>© 2025 Asia Fleming | All rights reserved</footer>
+</body>
+</html>
