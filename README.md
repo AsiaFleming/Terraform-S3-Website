@@ -51,9 +51,11 @@ To take this project a step further and reinforce Security+ concepts, I secured 
 
 ## Skills Demonstrated
 - Infrastructure-as-Code (IaC) with **Terraform**
-- AWS networking and resource provisioning
-- S3 website configuration and permissions
-- Cloud automation fundamentals
+- Static website hosting with **Amazon S3**
+- Secure content delivery using **CloudFront (CDN)**
+- Enabling **HTTPS (TLS)** using **AWS Certificate Manager (ACM)**
+- Custom domain + DNS routing with **Amazon Route 53**
+- Security fundamentals: **PKI, encryption in transit, DNS**
 
 ---
 
