@@ -42,7 +42,7 @@ To take this project a step further and reinforce Security+ concepts, I secured 
 
 ![Secure Static Website Architecture (Route 53 → CloudFront → S3 + ACM TLS)](images/aws-secure-static-site-architecture.png)
 
-**[Result](asiafleming.me):** The site loads securely over **HTTPS (TLS)** with a valid certificate.
+**[Result](https://asiafleming.me):** The site loads securely over **HTTPS (TLS)** with a valid certificate.
 
 
 
