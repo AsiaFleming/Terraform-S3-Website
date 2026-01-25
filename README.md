@@ -11,6 +11,10 @@ This project provisions a **2-tier AWS web environment** using **Terraform**. It
 - **Amazon VPC** — Custom virtual network with subnet and route configurations.
 - **Security Groups** — Defines inbound and outbound rules for EC2 access.
 - **IAM** — (Optional) Service roles and permissions for resource management.
+- **Amazon CloudFront** — CDN for secure delivery in front of S3.
+- **AWS Certificate Manager (ACM)** — SSL/TLS certificate for HTTPS.
+- **Amazon Route 53** — DNS routing for custom domain.
+
 
 ---
 
@@ -38,7 +42,9 @@ To take this project a step further and reinforce Security+ concepts, I secured 
 
 ![Secure Static Website Architecture (Route 53 → CloudFront → S3 + ACM TLS)](images/aws-secure-static-site-architecture.png)
 
-Result: The site loads securely over **HTTPS (TLS)** with a valid certificate.
+**[Result](asiaflemng.me):** The site loads securely over **HTTPS (TLS)** with a valid certificate.
+
+
 
 
 ---
