@@ -71,6 +71,19 @@ Below is a simplified overview of the infrastructure:
 ```
 
 ---
+## HTTPS + Custom Domain (AWS Console)
+To take this project a step further and reinforce Security+ concepts, I secured the website using a custom domain and HTTPS.
+
+- **ACM (AWS Certificate Manager)** to request an SSL/TLS certificate
+- **CloudFront** in front of S3 (secure delivery)
+- **Route 53** to route the custom domain to CloudFront via Alias record
+
+![Secure Static Website Architecture (Route 53 → CloudFront → S3 + ACM TLS)](images/aws-secure-static-site-architecture.png)
+
+Result: The site loads securely over **HTTPS (TLS)** with a valid certificate.
+
+
+---
 
 ## Skills Demonstrated
 - Infrastructure-as-Code (IaC) with **Terraform**
@@ -81,7 +94,6 @@ Below is a simplified overview of the infrastructure:
 ---
 
 ## Room for Growth
-- Add **CloudFront + SSL (ACM)** for HTTPS domain support  
 - Integrate **CloudWatch** for logging and monitoring  
 - Build CI/CD with GitHub Actions for automatic deployment  
 - Add Terraform **outputs.tf** for cleaner resource referencing  
