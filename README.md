@@ -29,48 +29,6 @@ AWS-website/
 
 ---
 
-## Deployment Instructions
-1. **Initialize Terraform**
-   ```bash
-   terraform init
-   ```
-2. **Preview the execution plan**
-   ```bash
-   terraform plan
-   ```
-3. **Apply changes**
-   ```bash
-   terraform apply
-   ```
-4. **Access your hosted site**
-   - Navigate to the S3 static website endpoint or EC2 public IP.
-
----
-
-## Architecture Diagram
-Below is a simplified overview of the infrastructure:
-
-```
-          ┌─────────────────────┐
-          │      Internet       │
-          └─────────┬───────────┘
-                    │
-             ┌──────┴──────┐
-             │   VPC (CIDR) │
-             └──────┬──────┘
-                    │
-           ┌────────┴────────┐
-           │  EC2 Instance   │
-           │ (Web/App Tier)  │
-           └────────┬────────┘
-                    │
-           ┌────────┴────────┐
-           │   S3 Bucket     │
-           │(Static Website) │
-           └─────────────────┘
-```
-
----
 ## HTTPS + Custom Domain (AWS Console)
 To take this project a step further and reinforce Security+ concepts, I secured the website using a custom domain and HTTPS.
 
