@@ -20,15 +20,17 @@ This project provisions a **2-tier AWS web environment** using **Terraform**. It
 
 ## 📂 Project Structure
 ```
-AWS-website/
-│── provider.tf               # AWS provider configuration
-│── vpc.tf                    # VPC setup and networking
-│── ec2.tf                    # EC2 instance provisioning
-│── security-groups.tf        # Security group configurations
-│── bucket.tf                 # S3 bucket setup for website hosting
-│── variable.tf               # Input variables
-│── index.html                # Main website page
-│── error.html                # Custom error page
+├── images/                          # Architecture diagrams/screenshots
+├── tf/                              # Terraform infrastructure code
+│   ├── bucket.tf                    # S3 bucket setup for website hosting
+│   ├── provider.tf                  # AWS provider configuration
+│   ├── security-groups.tf           # Security group configurations
+│   ├── variable.tf                  # Input variables
+│   └── vpc.tf                       # VPC setup and networking
+├── README.md                        # Project documentation
+├── error.html                       # Custom error page
+└── index.html                       # Main website page
+
 ```
 
 ---
